@@ -15,6 +15,7 @@
     z-index: 1;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .main-header__brand {
@@ -55,7 +56,6 @@
 .main-nav {
     display: inline-block;
     text-align: center;
-    width: calc(100% - 74px)
 }
 
 .main-nav__items {
