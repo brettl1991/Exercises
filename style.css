@@ -1,11 +1,11 @@
 #background-img {
     background: url("https://danwoodger.com/uploads/_2650x885_crop_top-left_75/2.6_STC_Hero_Image.jpg");
     background-size: cover;
-    width: 100vw;
+    width: auto;
     height: 70vh;
-    margin-top: 3.5rem;
+    margin-top: 1.5rem;
     position: relative;
-    border: 1px solid #1d1d1b;
+    border: 2px solid #1d1d1b;
 }
 
 h1 {
