@@ -102,8 +102,9 @@
 
 h1 {
     width: 150vh;
-    position: relative;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif #;
-    font-size: 180%;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    bottom: 20%;
+    left: 38%;
+    font-size: 1.6rem;
 }
