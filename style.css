@@ -11,9 +11,9 @@
 h1 {
     width: 150vh;
     position: absolute;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif solid;
-    bottom: 10%;
-    left: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    bottom: 13%;
+    left: 30%;
     font-size: 1.6rem;
     color: rgb(205, 202, 76);
 }
