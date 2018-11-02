@@ -1,0 +1,25 @@
+#background-img {
+    background: url("https://danwoodger.com/uploads/_2650x885_crop_top-left_75/2.6_STC_Hero_Image.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 3.5rem;
+    position: relative;
+    border: 1px solid #1d1d1b;
+}
+
+h1 {
+    width: 150vh;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif solid;
+    bottom: 10%;
+    left: 40%;
+    font-size: 1.6rem;
+}
+
+h1:hover,
+h1a:active {
+    color: #CDCA4C;
+    font-size: 1.8rem;
+    font-display: bold;
+}
