@@ -86,7 +86,7 @@
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
-    color: white;
+    color: black;
     border-bottom: 2px solid #3F0E5A;
 }
 

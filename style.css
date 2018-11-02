@@ -15,11 +15,12 @@ h1 {
     bottom: 10%;
     left: 40%;
     font-size: 1.6rem;
+    color: #CDCA4C;
 }
 
 h1:hover,
 h1a:active {
-    color: #CDCA4C;
+    color: black;
     font-size: 1.8rem;
     font-display: bold;
 }
