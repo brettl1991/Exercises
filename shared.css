@@ -106,6 +106,8 @@
 .main-footer__link {
     display: inline-block;
     margin: 0 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
 }
 
 .main-footer__link a {
