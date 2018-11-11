@@ -6,28 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Flexbox</title>
     <style>
-        .container-1 {
-            display: flex;
-            /* align-items: flex-start; */
-            /* align-items: flex-end; */
-            /* align-items: center; */
-            /* flex-direction: column; */
-        }
-
-        .container-2 {
-            display: flex;
-                /*
-      justify-content:flex-start;
-      justify-content:flex-end;
-      justify-content:center;
-      justify-content:space-around;
-      */
-      justify-content:space-between;
+      @media(min-width:468px) {
+          .container-1 {
+          display: flex;
+          /* align-items: flex-start; */
+          /* align-items: flex-end; */
+          /* align-items: center; */
+          /* flex-direction: column; */
     }
 
+          .container-2 {
+          display: flex;
+          /*
+          justify-content:flex-start;
+          justify-content:flex-end;
+          justify-content:center;
+          justify-content:space-around;
+          */
+          justify-content:space-between;
+    }
+}
+
         .container-1 div, .container-2 div{
-            border: 1px #ccc solid;
-            padding: 10px;
+        border: 1px #ccc solid;
+        padding: 10px;
         }
 
         .box-1 {
