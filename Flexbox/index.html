@@ -10,9 +10,22 @@
             display: flex;
             /* align-items: flex-start; */
             /* align-items: flex-end; */
+            /* align-items: center; */
+            /* flex-direction: column; */
         }
 
-        .container-1 div {
+        .container-2 {
+            display: flex;
+                /*
+      justify-content:flex-start;
+      justify-content:flex-end;
+      justify-content:center;
+      justify-content:space-around;
+      */
+      justify-content:space-between;
+    }
+
+        .container-1 div, .container-2 div{
             border: 1px #ccc solid;
             padding: 10px;
         }
@@ -31,6 +44,10 @@
             flex:1;
             order:3;
         }
+
+        .container-2-box {
+            flex-basis: 27%;
+        }
     </style>
 </head>
 <body>
@@ -48,5 +65,20 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
+      <div class="container-2">
+        <div class="container-2-box">
+          <h3>Box Four</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec elit urna. Suspendisse a erat a nibh imperdiet fermentum. In eleifend ultricies massa, id pretium purus convallis nec. </p>
+        </div>
+        <div class="container-2-box">
+          <h3>Box Five</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec elit urna. Suspendisse a erat a nibh imperdiet fermentum. In eleifend ultricies massa, id pretium purus convallis nec. </p>
+        </div>
+        <div class="container-2-box">
+          <h3>Box Six</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec elit urna. Suspendisse a erat a nibh imperdiet fermentum. In eleifend ultricies massa, id pretium purus convallis nec. </p>
+        </div>
+        </div>
+          
 </body>
 </html>
