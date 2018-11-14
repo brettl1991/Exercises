@@ -29,7 +29,9 @@
     const boxStyles = getComputedStyle(box);
     const boxMainColor = boxStyles.getPropertyValue('--box-main-color');
 
-    console.log(boxMainColor);
+    // console.log(boxMainColor);
+    const header = document.querySelector('#main-header');
+    header.style.setProperty('--header-bg-color', boxMainColor);
     </script>
 </body>
 </html>
