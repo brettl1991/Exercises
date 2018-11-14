@@ -30,6 +30,13 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
 /* Define box vars : these just going to work inside the box classes*/
 .box {
     --box-bg-color: #ddd;
