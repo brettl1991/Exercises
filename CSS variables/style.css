@@ -30,3 +30,14 @@ body {
     padding: 0;
     margin: 0;
 }
+/* Define box vars : these just going to work inside the box classes*/
+.box {
+    --box-bg-color: #ddd;
+    --box-main-color: #06c;
+    --box-padding: 5px 10px;
+}
+
+.box {
+    background-color: var(--box-bg-color);
+    padding: var(--box-padding);
+}
