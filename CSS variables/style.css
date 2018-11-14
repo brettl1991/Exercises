@@ -2,6 +2,9 @@
 :root { 
     --main-bg-color: #f4f4f4;
     --main-text-color: #333;
+    --container-width: 90%;
+    --header-bg-color: #333;
+    --header-text-color: #fff;
 }
 
 body {
@@ -11,4 +14,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
+}
+
+.container {
+    width: var(--container-width);
+    margin: 20px auto;
+}
+
+#main-header {
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+}
+
+#main-header h1 {
+    padding: 0;
+    margin: 0;
 }
