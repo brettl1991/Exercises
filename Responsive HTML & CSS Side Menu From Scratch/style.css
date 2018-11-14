@@ -51,3 +51,7 @@ body {
     display: block;
     transition: 0.3s;
 }
+
+.side-nav a:hover{
+    color: #fff;
+}
