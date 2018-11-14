@@ -64,6 +64,7 @@ body {
 }
 
 .box p {
-    --box-main-color: #555;
-    color: var(--box-main-color);
+    /* --box-main-color: #555;
+    color: var(--box-main-color); */
+    color: var(--box-p-color, #ccc);
 }
