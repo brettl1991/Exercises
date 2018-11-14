@@ -2,3 +2,9 @@ body {
     font-family: Arial, serif;
     background-color: #f4f4f4;
 }
+
+.navbar {
+    background-color: #3b5998;
+    overflow: hidden;
+    height: 63px;;
+}
