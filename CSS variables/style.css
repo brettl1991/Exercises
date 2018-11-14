@@ -62,3 +62,8 @@ body {
 .box h1 {
     color: var(--box-main-color);
 }
+
+.box p {
+    --box-main-color: #555;
+    color: var(--box-main-color);
+}
