@@ -16,3 +16,16 @@ body {
     margin-left: auto;
     padding: 1em;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.brand {
+    text-align: center;
+}
+
+.brand span {
+    color: #fff;
+}
