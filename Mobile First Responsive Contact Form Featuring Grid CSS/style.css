@@ -13,7 +13,7 @@ body {
 .container {
     max-width: 1170px;
     margin-left: auto;
-    margin-left: auto;
+    margin-right: auto;
     padding: 1em;
 }
 
@@ -31,9 +31,23 @@ ul {
 }
 
 .wrapper {
-    box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
 }
 
-.wrapper > * {
+.wrapper >* {
     padding: 1em;
+}
+
+.company-info {
+    background: #c9e6ff;
+}
+
+.company-info h3,
+.company-info ul {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.contact {
+    background: #f9feff;
 }
