@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main__header {
+    position: fixed;
+    height: 2em;
+}
+.packages {
+    position: relative;
+    top: 200px;
+    left: 30px;
+}
+
+h1 {
+    color: #CDCA4C;
+}
