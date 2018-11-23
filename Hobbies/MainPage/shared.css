@@ -20,12 +20,11 @@
 }
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
-    position: relative;
-    width: 60%;
-    max-width: 75px;
+    width: 75px;
     padding-top: 6vh;
     cursor: pointer;
 }
+
 /* Make the image responsive  */
 .image {
     display: block;
@@ -33,17 +32,16 @@
     height: auto;
     border-radius: 50%;
 }
+
 /* The overlay effect - lays on top of the container and over the image */
 .description {
-    position: absolute; 
     bottom: 0; 
     /* background: rgb(0, 0, 0); */
     /* background: rgba(182, 175, 175, 0.5); Black see-through */
-    color: #f1f1f1; 
+    color: #0f0909; 
     width: 100%;
     transition: .4s ease;
     opacity:0;
-    color: white;
     font-size: 15px;
     padding: 2px;
     text-align: center;
@@ -54,41 +52,18 @@
     opacity: 1;
 }
 
-
-.main-nav {
-    display: inline-block;
-    text-align: center;
-}
-
-.main-nav__item a {
-    font-size: 27px;
-}
-
-
 .main-nav__items {
-    margin: 0;
-    padding: 0;
+    display: flex;
     list-style: none;
 }
 
-.main-nav__item {
-    display: inline-block;
-    margin: 0 10px;
-    font-size: 20px;
+.main-nav__item:not(:last-child) {
+    margin-right: 20px
 }
 
-.main-nav__item a {
-    color: #CDCA4C;
+.main-nav__item a{
     text-decoration: none;
-    font-weight: bold;
-    padding: 4px 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
 
-.main-nav__item a:hover,
-.main-nav__item a:active {
-    color: black;
-    border-bottom: 2px solid #3F0E5A;
 }
 
 .main-footer {
