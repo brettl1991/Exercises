@@ -36,20 +36,6 @@
     border-radius: 50%;
 }
 
-/* When you mouse over the container, fade in the overlay title */
-.container:hover .description {
-    opacity: 1;
-    /* display: block; */
-}
-
-.description {
-    /* display: none; */
-    opacity: 0;
-    transition: ease opacity 0.3s;
-    color: black;
-    font-weight: bold;
-}
-
 .main-nav__items {
     display: flex;
     list-style: none;
