@@ -20,6 +20,11 @@
 }
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
+    display: flex;
+    align-items: center;
+}
+
+.img__wrap {
     width: 75px;
     padding-top: 6vh;
     cursor: pointer;
@@ -27,29 +32,22 @@
 
 /* Make the image responsive  */
 .image {
-    display: block;
     width: 100%;
-    height: auto;
     border-radius: 50%;
-}
-
-/* The overlay effect - lays on top of the container and over the image */
-.description {
-    bottom: 0; 
-    /* background: rgb(0, 0, 0); */
-    /* background: rgba(182, 175, 175, 0.5); Black see-through */
-    color: #0f0909; 
-    width: 100%;
-    transition: .4s ease;
-    opacity:0;
-    font-size: 15px;
-    padding: 2px;
-    text-align: center;
 }
 
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .description {
     opacity: 1;
+    /* display: block; */
+}
+
+.description {
+    /* display: none; */
+    opacity: 0;
+    transition: ease opacity 0.3s;
+    color: black;
+    font-weight: bold;
 }
 
 .main-nav__items {
@@ -63,7 +61,10 @@
 
 .main-nav__item a{
     text-decoration: none;
-
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
 }
 
 .main-footer {
