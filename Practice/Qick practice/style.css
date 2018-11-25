@@ -13,12 +13,12 @@
     justify-content: center;
     flex-direction: column;
     margin: 7em auto;
+    align-items: center;
 }
 
 .squares {
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
     padding: 2em;
@@ -44,6 +44,14 @@
 
 .square__three {
     background-color: brown;
+}
+
+.button button {
+    padding: 1em 3em;
+    border-radius: 10px;
+    background-color: yellow;
+    border: none;
+    
 }
 
 
