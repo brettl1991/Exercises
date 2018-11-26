@@ -53,4 +53,24 @@
     border: none;
 }
 
+@media (max-width:1020px) {
+    .container{
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    .container{
+        height: auto;
+    }
+    .squares {
+        flex-direction: column;
+    }
+    .square__one,
+    .square__two,
+    .square__three {
+        margin: 2em 0;
+    }
+}
+
 
